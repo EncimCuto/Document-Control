@@ -780,10 +780,10 @@ $bagian = $_SESSION['bagian'];
                             </td>
                         </tr>
 
-                        <!-- DIKETAHUI : REJA FIRMANSYAH -->
+                        <!-- DIKETAHUI : Jahid Koirijadi -->
                         <tr>
                             <td colspan="3" class="left">
-                                <p>Diketahui : Reja Firmansyah</p>
+                                <p>Diketahui : Jahid Koirijadi</p>
                             </td>
                             <td colspan="2" rowspan="2"></td>
                         </tr>

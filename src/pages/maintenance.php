@@ -136,6 +136,12 @@ if ($bagian !== 'MAINTENANCE' && $bagian !== 'MASTER') {
                         <div class="name">UTILILTY</div>
                     </div>
                 </a>
+                <a href="Maintenance/5-electrical_engine/dashboard.php?token=<?php echo htmlspecialchars($_SESSION['token']); ?>" class="link-dark link-underline link-underline-opacity-0">
+                    <div class="box">
+                        <img src="../assets/maintenance/electrical-engine.png" alt="electrical_engine" width="140px">
+                        <div class="name">ELECTRICAL ENGINE</div>
+                    </div>
+                </a>
             </div>
         </div>
 
