@@ -214,6 +214,42 @@ $kondisi_drive23 = $_POST['kondisi_drive23'] ?? '';
 $keterangan_drive23 = $_POST['keterangan_drive23'] ?? '';
 $checkbox_drive23 = isset($_POST['checkbox_drive23']) ? 1 : 0;
 
+$kondisi_oil1 = $_POST['kondisi_oil1'] ?? '';
+$keterangan_oil1 = $_POST['keterangan_oil1'] ?? '';
+$checkbox_oil1 = isset($_POST['checkbox_oil1']) ? 1 : 0;
+
+$kondisi_oil2 = $_POST['kondisi_oil2'] ?? '';
+$keterangan_oil2 = $_POST['keterangan_oil2'] ?? '';
+$checkbox_oil2 = isset($_POST['checkbox_oil2']) ? 1 : 0;
+
+$kondisi_oil3 = $_POST['kondisi_oil3'] ?? '';
+$keterangan_oil3 = $_POST['keterangan_oil3'] ?? '';
+$checkbox_oil3 = isset($_POST['checkbox_oil3']) ? 1 : 0;
+
+$kondisi_oil4 = $_POST['kondisi_oil4'] ?? '';
+$keterangan_oil4 = $_POST['keterangan_oil4'] ?? '';
+$checkbox_oil4 = isset($_POST['checkbox_oil4']) ? 1 : 0;
+
+$kondisi_kosong1 = $_POST['kondisi_kosong1'] ?? '';
+$keterangan_kosong1 = $_POST['keterangan_kosong1'] ?? '';
+$checkbox_kosong1 = isset($_POST['checkbox_kosong1']) ? 1 : 0;
+
+$kondisi_kosong2 = $_POST['kondisi_kosong2'] ?? '';
+$keterangan_kosong2 = $_POST['keterangan_kosong2'] ?? '';
+$checkbox_kosong2 = isset($_POST['checkbox_kosong2']) ? 1 : 0;
+
+$kondisi_kosong3 = $_POST['kondisi_kosong3'] ?? '';
+$keterangan_kosong3 = $_POST['keterangan_kosong3'] ?? '';
+$checkbox_kosong3 = isset($_POST['checkbox_kosong3']) ? 1 : 0;
+
+$kondisi_kosong4 = $_POST['kondisi_kosong4'] ?? '';
+$keterangan_kosong4 = $_POST['keterangan_kosong4'] ?? '';
+$checkbox_kosong4 = isset($_POST['checkbox_kosong4']) ? 1 : 0;
+
+$kondisi_kosong5 = $_POST['kondisi_kosong5'] ?? '';
+$keterangan_kosong5 = $_POST['keterangan_kosong5'] ?? '';
+$checkbox_kosong5 = isset($_POST['checkbox_kosong5']) ? 1 : 0;
+
 $korektif = $_POST['korektif'] ?? '';
 $kebutuhan_material = $_POST['kebutuhan_material'] ?? '';
 $pemeliharaan_forklift1 = $_POST['pemeliharaan_forklift1'] ?? '';
@@ -242,8 +278,8 @@ $jumlah4 = $_POST['jumlah4'] ?? '';
 $jumlah5 = $_POST['jumlah5'] ?? '';
 
 // Query untuk menyimpan data
-$sql = "INSERT INTO pump 
-    (tanggal, waktu, nama_mesin, paket,
+$sql = "INSERT INTO electrical_engine 
+    (tanggal, waktu, nama_mesin, running_hour,
 kondisi_motor1, keterangan_motor1, kondisi_motor2, keterangan_motor2, kondisi_motor3, keterangan_motor3, 
         kondisi_motor4, keterangan_motor4, kondisi_motor5, keterangan_motor5, kondisi_motor6, keterangan_motor6, 
         kondisi_motor7, keterangan_motor7, kondisi_motor8, keterangan_motor8, pemeliharaan_motor1, pemeliharaan_motor2,

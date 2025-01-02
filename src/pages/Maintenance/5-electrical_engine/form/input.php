@@ -18,7 +18,7 @@ $bagian = $_SESSION['bagian'];
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Motor Pump</title>
+    <title>Electrical Engine</title>
     <!-- <link rel="shortcut icon" href="../assets/img/wings1.png" type="image/x-icon"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
@@ -943,8 +943,11 @@ $bagian = $_SESSION['bagian'];
                             <td colspan="6" style="border-bottom: none;">
                                 <h3 class="left">Tindakan Korektif :</h3>
                             </td>
-                            <td colspan="5">
+                            <td colspan="2" style="border-right: none;">
                                 <h3 class="left">Kebutuhan Material :</h3>
+                            </td>
+                            <td colspan="3" style="border-left: none;" class="left">
+                                <input type="text" name="kebutuhan_material" id="kebutuhan_material" class="abu" style=" width:320px; margin-left:-50px;">
                             </td>
                         </tr>
 

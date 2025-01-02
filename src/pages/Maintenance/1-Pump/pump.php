@@ -659,7 +659,7 @@ $bagian = $_SESSION['bagian'];
                                 <h3 class="left">Kebutuhan Material :</h3>
                             </td>
                             <td colspan="3" style="border-left: none;" class="left">
-                                <input type="text" name="material" id="material" class="biru" style=" width:320px; margin-left:-50px;">
+                                <input type="text" name="kebutuhan_material" id="kebutuhan_material" class="biru" style=" width:320px; margin-left:-50px;">
                             </td>
                         </tr>
 
